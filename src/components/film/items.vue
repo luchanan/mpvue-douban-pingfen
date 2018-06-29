@@ -1,7 +1,7 @@
 <template>
   <ul :class="useFloat ? 'film-items film-items-float clearfix' : 'film-items clearfix'">
     <li v-for="(filmItem, filmIndex) in list" :key="filmIndex">
-      <navigator url="/pages/search/search" hover-class="navigator-hover">
+      <navigator v-if="filmItem.id" :url="'/pages/detail/detail?id=' + filmItem.id" hover-class="navigator-hover">
         <div class="thumbnail">
           <img :src="filmItem.cover.url">
         </div>
