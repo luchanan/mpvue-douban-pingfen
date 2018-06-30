@@ -9,7 +9,7 @@
         <div class="weui-flex">
           <div class="score">{{detail.rating.value}}</div>
           <div class="ratingbar-comment">
-            <div>111</div>
+            <div><filmStar :rating="detail.rating" :show-score="false"></filmStar></div>
             <div class="comment">{{detail.rating.count}}人评价</div>
           </div>
         </div>
@@ -43,6 +43,7 @@
 import * as API from '@/api'
 import shortComment from './shortComment'
 import filmComment from './filmComment'
+import filmStar from '@/components/film/star'
 export default {
   data() {
     return {
@@ -52,7 +53,8 @@ export default {
   },
   components: {
     shortComment,
-    filmComment
+    filmComment,
+    filmStar
   },
   mounted () {
     this.shortCommentParams.id = this.$root.$mp.query.id

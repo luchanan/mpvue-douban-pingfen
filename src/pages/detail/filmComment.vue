@@ -4,7 +4,7 @@
     <ul>
       <li v-for="(items, index) in detail.reviews" :key="index">
         <div class="content">{{items.title}}</div>
-        <div><span class="name">{{items.user.name}}</span> <span class="useful">{{items.likers_count}}有用</span></div>
+        <div class="weui-flex"><span class="name">{{items.user.name}}</span> <filmStarTwo :rating="items.rating" :show-score="false" /> <span class="useful">{{items.likers_count}}有用</span></div>
       </li>
     </ul>
     <div class="getMore">查看更多影评</div>
@@ -13,6 +13,7 @@
 
 <script>
 import * as API from '@/api'
+import filmStarTwo from '@/components/film/star'
 export default {
   data() {
     return {
@@ -35,6 +36,7 @@ export default {
       deep: true
     }
   },
+  components: { filmStarTwo },
   mounted () {
     this.getFilmComment()
   },
@@ -59,6 +61,7 @@ export default {
       color $gray
     .name
       font-size 12px
+      margin-right 10px
     .useful
       color $gray
       font-size 12px

@@ -6,18 +6,7 @@
           <img :src="filmItem.cover.url">
         </div>
         <div class="film-title ellipsis">{{filmItem.title}}</div>
-        <!--评分可以抽出-->
-        <div class="film-star weui-flex">
-          <div class="star-wrapper weui-flex" v-if="filmItem.rating && filmItem.rating.value">
-            <div class="weui-flex" :style="{width: (filmItem.rating.value / filmItem.rating.max) * 100 + '%', overflow: 'hidden'}">
-              <icon-font v-for="items in stars" iconColor="#F4F429" :key="items" iconClass="star"/>
-            </div>
-            <div class="weui-flex">
-              <icon-font v-for="items in stars" :key="items" iconClass="star"/>
-            </div>
-          </div>{{filmItem.rating && filmItem.rating.value ? filmItem.rating.value : '暂无评分'}}
-        </div>
-        <!--评分可以抽出-->
+        <film-star :rating="filmItem.rating" />
       </navigator>
     </li>
   </ul>
@@ -25,6 +14,7 @@
 
 <script>
 import * as API from '@/api'
+import filmStar from './star'
 export default {
   data () {
     return {
@@ -63,6 +53,7 @@ export default {
       this.getFilm()
     }
   },
+  components: { filmStar },
   mounted () {
     this.getFilm()
   },
@@ -117,18 +108,6 @@ export default {
         width 33.33333%
         &:last-child
           margin-right 0
-  .film-star
-    color #afafaf
-    font-size 12px
-    .star-wrapper
-      position relative
-      .weui-flex
-        &:first-child
-          position absolute
-          top 0
-          left 0
-        &:last-child
-          margin-right 5px
   .film-title
     font-size 15px
     padding 5px 0 0 0

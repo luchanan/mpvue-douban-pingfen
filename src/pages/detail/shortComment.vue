@@ -5,7 +5,7 @@
       <li class="weui-flex" v-for="(items, index) in detail.interests" :key="index">
         <img :src="items.user.avatar">
         <div class="weui-flex__item">
-          <h3 class="name">{{items.user.name}}</h3>
+          <h3 class="weui-flex"><span class="name">{{items.user.name}}</span> <filmStarOne :rating="items.rating" :show-score="false"></filmStarOne></h3>
           <time>{{items.create_time}}</time>
           <div class="content">{{items.comment}}</div>
         </div>
@@ -17,6 +17,7 @@
 
 <script>
 import * as API from '@/api'
+import filmStarOne from '@/components/film/star'
 export default {
   data() {
     return {
@@ -31,6 +32,7 @@ export default {
       type: Object
     }
   },
+  components: { filmStarOne },
   watch: {
     'params.id': {
       handler (val, oldVal) {
@@ -59,6 +61,8 @@ export default {
   @import '~@/stylus/variable'
   .short-comment
     font-size 14px
+    .name
+      margin-right 10px
     time
       color $gray
       font-size 12px
