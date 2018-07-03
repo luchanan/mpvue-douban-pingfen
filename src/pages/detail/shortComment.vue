@@ -1,6 +1,7 @@
 <template>
   <div class="short-comment">
     <h2>短评({{detail.total}})</h2>
+    <div class="notShow" v-if="notShow"><div class="inner">本片尚未上映，以下是想看用户写的短评</div></div>
     <ul>
       <li class="weui-flex" v-for="(items, index) in detail.interests" :key="index">
         <img :src="items.user.avatar">
@@ -30,6 +31,10 @@ export default {
   props: {
     params: {
       type: Object
+    },
+    notShow: {
+      type: Boolean,
+      default: false
     }
   },
   components: { filmStarOne },
@@ -58,7 +63,17 @@ export default {
 
 <style lang="stylus" scoped>
   @import '~@/stylus/variable'
+  @import '~@/stylus/onePx'
   .short-comment
+    .notShow
+      font-size 12px
+      text-align center
+      padding 0 10px
+      margin 10px 0 20px 0
+      color $gray
+      .inner
+        setLine()
+        padding 5px 0
     font-size 14px
     .name
       margin-right 10px

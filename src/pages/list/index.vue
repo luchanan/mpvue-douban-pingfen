@@ -59,4 +59,6 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
+  .weui-loadmore
+    padding 0 0 10px 0
 </style>

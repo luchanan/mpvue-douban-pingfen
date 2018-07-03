@@ -1,18 +1,20 @@
 <template>
-  <div class="page-detail" v-if="!loading && detail.rating && detail.rating.value || detail.rating && !detail.rating.value">
+  <div class="page-detail" v-if="!loading && (detail.rating && detail.rating.value || detail.null_rating_reason)">
     <div class="top">
       <div class="bg" :style="{background: 'url(' + detail.pic.large + ') scroll no-repeat top center'}"></div>
       <img :src="detail.pic.normal" class="poster" />
       <div class="intro">
         <div class="name ellipsis">{{detail.title}}</div>
         <div class="ename ellipsis">{{detail.original_title}}</div>
-        <div class="weui-flex">
+        <div v-if="detail.null_rating_reason" class="nullReason">{{detail.null_rating_reason}}</div>
+        <div class="weui-flex" v-else>
           <div class="score">{{detail.rating.value}}</div>
           <div class="ratingbar-comment">
             <div><filmStar :rating="detail.rating" :show-score="false"></filmStar></div>
             <div class="comment">{{detail.rating.count}}人评价</div>
           </div>
         </div>
+        
       </div>
     </div>
     <section class="wrapper">
@@ -24,7 +26,7 @@
           {{detail.directors[0].name}}({{detail.directors[0].roles[0]}}) / {{detail.actors}}
         </p>
         <div class="button-wrapper weui-flex">
-          <button type="default" class="weui-btn weui-flex__item" plain="true">想看</button><button type="default" class="weui-btn weui-flex__item" plain="true">在看</button><button type="default" class="weui-btn weui-flex__item" plain="true">看过</button>
+          <button type="default" class="weui-btn weui-flex__item" plain="true">想看</button><button v-if="shortCommentParams.type === 'tv'" type="default" class="weui-btn weui-flex__item" plain="true">在看</button><button type="default" class="weui-btn weui-flex__item" plain="true">看过</button>
         </div>
       </section>
       <section class="sum">
@@ -34,7 +36,7 @@
         </article>
       </section>
     </section>
-    <short-comment :params="shortCommentParams"></short-comment>
+    <short-comment :params="shortCommentParams" :not-show="detail.null_rating_reason && detail.null_rating_reason === '尚未上映' ? true : false"></short-comment>
     <film-comment :params="shortCommentParams"></film-comment>
   </div>
 </template>
@@ -92,6 +94,9 @@ export default {
 
 <style lang="stylus" scoped>
   @import '~@/stylus/variable'
+  .nullReason
+    color $gray
+    margin-top 10px
   .page-detail
     font-size 14px
   .button-wrapper

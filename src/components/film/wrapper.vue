@@ -74,7 +74,7 @@ export default {
         position absolute
         left 0
         top 0
-        width 5px
+        width 3px
         height 100%
         background $green
         content ''

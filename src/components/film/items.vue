@@ -6,7 +6,7 @@
           <img :src="filmItem.cover.url">
         </div>
         <div class="film-title ellipsis">{{filmItem.title}}</div>
-        <film-star :rating="filmItem.rating" />
+        <film-star :rating="filmItem.rating" :show-text="filmItem.null_rating_reason ? filmItem.null_rating_reason : '暂无评分'" />
       </navigator>
     </li>
   </ul>

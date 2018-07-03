@@ -7,7 +7,7 @@
       <div class="weui-flex">
         <icon-font v-for="items in stars" :key="items" iconClass="star"/>
       </div>
-    </div><template v-if="showScore">{{rating && rating.value ? rating.value : '暂无评分'}}</template>
+    </div><template v-if="showScore">{{rating && rating.value ? rating.value : showText}}</template>
   </div>
 </template>
 
@@ -21,6 +21,10 @@ export default {
   props: {
     rating: {
       type: Object
+    },
+    showText: {
+      type: String,
+      default: '暂无评分'
     },
     showScore: {
       type: Boolean,
