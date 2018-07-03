@@ -1,5 +1,5 @@
 <template>
-  <div class="page-detail" v-if="detail.rating && detail.rating.value">
+  <div class="page-detail" v-if="!loading && detail.rating && detail.rating.value || detail.rating && !detail.rating.value">
     <div class="top">
       <div class="bg" :style="{background: 'url(' + detail.pic.large + ') scroll no-repeat top center'}"></div>
       <img :src="detail.pic.normal" class="poster" />
@@ -20,11 +20,11 @@
         <!--{{不支持使用methos}}-->
         <p>{{detail.durations}} {{detail.genres}}</p>
         <p>{{detail.pubdate}}上映 {{detail.countries}}</p>
-        <p>
+        <p v-if="detail.directors && detail.directors.length > 0">
           {{detail.directors[0].name}}({{detail.directors[0].roles[0]}}) / {{detail.actors}}
         </p>
         <div class="button-wrapper weui-flex">
-          <button type="default" class="weui-btn weui-flex__item" plain="true">想看</button><button type="default" class="weui-btn weui-flex__item" plain="true">看过</button>
+          <button type="default" class="weui-btn weui-flex__item" plain="true">想看</button><button type="default" class="weui-btn weui-flex__item" plain="true">在看</button><button type="default" class="weui-btn weui-flex__item" plain="true">看过</button>
         </div>
       </section>
       <section class="sum">
@@ -48,7 +48,8 @@ export default {
   data() {
     return {
       detail: {},
-      shortCommentParams: {id: ''}
+      loading: false,
+      shortCommentParams: {id: '', type: 'movie'}
     }
   },
   components: {
@@ -57,13 +58,20 @@ export default {
     filmStar
   },
   mounted () {
+    wx.showNavigationBarLoading()
+    wx.showLoading()
+    this.loading = true
     this.shortCommentParams.id = this.$root.$mp.query.id
+    this.shortCommentParams.type = this.$root.$mp.query.type
     this.getDetail()
   },
   methods: {
     getDetail () {
-      API.getFilmDetail({id: this.$root.$mp.query.id}).then(res => {
+      API.getFilmDetail({id: this.$root.$mp.query.id, type: this.$root.$mp.query.type}).then(res => {
         // 由于{{不支持methods方法和复杂的js表达式}}所以在返回数据的时候处理
+        wx.hideNavigationBarLoading()
+        wx.hideLoading()
+        this.loading = false
         res.data.genres =  res.data.genres.join(' / ')
         res.data.countries =  res.data.countries.join(' / ')
         let actors = []
@@ -73,6 +81,9 @@ export default {
         })
         res.data.actors = actors.join(' / ')
         this.detail = res.data
+        wx.setNavigationBarTitle({
+          title: this.detail.title
+        })
       })
     }
   }
@@ -92,8 +103,9 @@ export default {
       line-height 1.2
       padding 8px 0
       font-size 14px
-      &:first-child
-        margin-right 10px
+      margin-right 10px
+      &:last-child
+        margin-right 0
   .wrapper
     padding 0 10px
   .sum

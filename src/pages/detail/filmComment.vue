@@ -44,6 +44,7 @@ export default {
     getFilmComment () {
       API.getFilmComment({id: this.params.id}).then(res => {
         this.detail = Object.assign({}, this.detail, res.data)
+        console.log(this.detail, `${this.params.type}影评`)
       })
     }
   }
@@ -52,6 +53,7 @@ export default {
 
 <style lang="stylus" scoped>
   @import '~@/stylus/variable'
+  @import '~@/stylus/onePx'
   .film-comment
     font-size 14px
     .content
@@ -69,7 +71,9 @@ export default {
       padding 0 10px
       li
         padding 10px 0 10px 0
-        border-bottom solid 1px $gray
+        setBottomLine()
+        &:last-child:after
+          border none
     .getMore
       text-align center
       padding 20px 0 30px 0

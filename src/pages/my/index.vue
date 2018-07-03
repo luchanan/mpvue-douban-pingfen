@@ -24,7 +24,6 @@ export default {
       wx.showActionSheet({
         itemList: ['A', 'B', 'C'],
         success: function (res) {
-          console.log(res.tapIndex)
         }
       });
     }

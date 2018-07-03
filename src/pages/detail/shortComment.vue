@@ -36,21 +36,20 @@ export default {
   watch: {
     'params.id': {
       handler (val, oldVal) {
+        console.log(val)
         this.getShortComment()
       },
       deep: true
     }
   },
   mounted () {
-    console.log(this.params.id)
     this.getShortComment()
   },
   methods: {
     getShortComment () {
       API.getShortComment({id: this.params.id}).then(res => {
-        console.log(res)
         this.detail = Object.assign({}, this.detail, res.data)
-        console.log(this.detail)
+        console.log(this.detail, `${this.params.type}短评`)
       })
     }
   }

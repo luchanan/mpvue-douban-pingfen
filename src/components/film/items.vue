@@ -1,7 +1,7 @@
 <template>
   <ul :class="useFloat ? 'film-items film-items-float clearfix' : 'film-items clearfix'">
     <li v-for="(filmItem, filmIndex) in list" :key="filmIndex">
-      <navigator v-if="filmItem.id" :url="'/pages/detail/detail?id=' + filmItem.id" hover-class="navigator-hover">
+      <navigator v-if="filmItem.id" :url="'/pages/detail/detail?id=' + filmItem.id + '&type=' + filmItem.type" hover-class="navigator-hover">
         <div class="thumbnail">
           <img :src="filmItem.cover.url">
         </div>
@@ -67,6 +67,7 @@ export default {
         this.loading = false
         this.page.total = Math.ceil(res.data.total / this.page.size)
         this.$emit('complete', {loading: this.loading, hasMore: this.hasMore()})
+        console.log(this.list, `${this.listApi}列表接口`)
       })
     },
     hasMore (total) {

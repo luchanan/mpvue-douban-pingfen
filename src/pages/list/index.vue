@@ -48,7 +48,6 @@ export default {
   },
   methods: {
     complete (params) {
-      console.log(params)
       this.itemLoding = false
       this.hasMore = params.hasMore
     },

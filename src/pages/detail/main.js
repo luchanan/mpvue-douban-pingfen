@@ -6,6 +6,6 @@ app.$mount()
 
 export default {
   config: {
-    navigationBarTitleText: '豆瓣评分'
+    navigationBarTitleText: '电影详情'
   }
 }
