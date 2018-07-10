@@ -24,7 +24,13 @@ export default {
     searchBars
   },
   onShareAppMessage () {
-    // 导航...点击
+    // https://developers.weixin.qq.com/miniprogram/dev/api/share.html?search-key=%E5%88%86%E4%BA%AB
+    // 导航...点击, 转发分享
+    return {
+      title: 'github',
+      path: 'https://github.com/luchanan/mpvue-douban-pingfen',
+      imageUrl: ''
+    }
   },
   methods: {
   }

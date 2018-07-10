@@ -149,14 +149,14 @@ export default {
       font-size 12px
       .score
         margin-right 5px
-        font-size 32px
+        font-size 30px
       .name
         font-size 22px
         padding-right 10px
       .ename
         font-size 22px
-        padding-right 10px
+        padding 5px 10px 0 0
         max-width 200px
       .weui-flex
-        align-items:flex-end
+        align-items center
 </style>

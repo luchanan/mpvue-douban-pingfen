@@ -1,0 +1,333 @@
+{
+	"rating": {
+		"count": 107637,
+		"max": 10,
+		"star_count": 3.5,
+		"value": 7.3
+	},
+	"vendor_count": 0,
+	"pubdate": ["2018-06-29(中国大陆)"],
+	"last_episode_number": null,
+	"pic": {
+		"large": "https://img1.doubanio.com\/view\/photo\/m_ratio_poster\/public\/p2525528688.jpg",
+		"normal": "https://img1.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2525528688.jpg"
+	},
+	"lineticket_url": "https:\/\/movie.douban.com\/ticket\/redirect\/?url=https://m.maoyan.com/cinema/movie/1198178?_v_=yes&merCode=1000011",
+	"body_bg_color": "f4f9f9",
+	"is_tv": false,
+	"card_subtitle": "2018 \/ 中国大陆 \/ 剧情 动作 冒险 \/ 韩延 \/ 李易峰 迈克尔·道格拉斯",
+	"intro": "男主角郑开司因被朋友欺骗而背负上数百万的债务，面对重病的母亲和痴心等待的青梅竹马，他决心登上“命运号”游轮，改变自己一事无成的人生。只要能在渡轮上的游戏中获胜，他就将有机会将债务一笔勾销，并给家人带来更好的生活。这场游戏看似简单，参与者只需以标着“石头，剪刀，布”的扑克为道具，赢取对手身上的星星标志。但游轮上的亡命徒们毫无底线的欺诈争夺，却让人性的自私与残酷暴露无遗，局中局、计中计，让游戏场最终沦为“动物世界”斗兽场。面对绝境的郑开司，能否坚守自我底线保持善良本性？能否凭借自己的智慧和坚韧摆脱困境？这是一场自我救赎的残酷游戏，多重考验也将接踵而至。",
+	"ticket_price_info": "",
+	"vendor_icons": [],
+	"year": "2018",
+	"head_info": null,
+	"forum_info": null,
+	"webisode": null,
+	"id": "26925317",
+	"languages": ["汉语普通话", "英语"],
+	"genres": ["剧情", "动作", "冒险"],
+	"can_interact": true,
+	"review_count": 3028,
+	"title": "动物世界",
+	"has_linewatch": false,
+	"webview_info": {},
+	"is_released": true,
+	"comment_count": 51061,
+	"actors": [{
+		"name": "李易峰",
+		"roles": ["演员"],
+		"title": "李易峰（同名）中国,四川,成都影视演员",
+		"url": "https:\/\/movie.douban.com\/celebrity\/1314140\/",
+		"abstract": "四川省成都市人。于2010年毕业于四川师范大学电影电视学院播音与主持系2006级本科。中国内地男歌手，演...",
+		"author": null,
+		"uri": "douban:\/\/douban.com\/celebrity\/1314140?subject_id=27482621",
+		"cover_url": "https://img1.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/p1403196522.98.jpg",
+		"avatar": {
+			"large": "https://img1.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/p1403196522.98.jpg",
+			"normal": "https://img1.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/p1403196522.98.jpg"
+		},
+		"type": "celebrity",
+		"id": "1314140",
+		"sharing_url": "https:\/\/www.douban.com\/doubanapp\/dispatch?uri=\/celebrity\/1314140\/"
+	}, {
+		"name": "迈克尔·道格拉斯",
+		"roles": ["演员", "制片", "导演", "编剧"],
+		"title": "迈克尔·道格拉斯（同名）美国,新泽西,新不伦瑞克影视演员",
+		"url": "https:\/\/movie.douban.com\/celebrity\/1053620\/",
+		"abstract": "麦克-道格拉斯的父亲是鼎鼎大名的库克-道格拉斯。父亲在好莱坞的赫赫威名对年轻的麦克来说不啻...",
+		"author": null,
+		"uri": "douban:\/\/douban.com\/celebrity\/1053620?subject_id=27259388",
+		"cover_url": "https://img3.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/p4023.jpg",
+		"avatar": {
+			"large": "https://img3.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/p4023.jpg",
+			"normal": "https://img3.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/p4023.jpg"
+		},
+		"type": "celebrity",
+		"id": "1053620",
+		"sharing_url": "https:\/\/www.douban.com\/doubanapp\/dispatch?uri=\/celebrity\/1053620\/"
+	}, {
+		"name": "周冬雨",
+		"roles": ["演员", "配音"],
+		"title": "周冬雨（同名）中国,河北,石家庄影视演员",
+		"url": "https:\/\/movie.douban.com\/celebrity\/1274224\/",
+		"abstract": "周冬雨，河北省石家庄市人，毕业于北京电影学院表演系2011级本科班。2010年因出演张艺谋导演的电影《山...",
+		"author": null,
+		"uri": "douban:\/\/douban.com\/celebrity\/1274224?subject_id=27480648",
+		"cover_url": "https://img1.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/p36798.jpg",
+		"avatar": {
+			"large": "https://img1.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/p36798.jpg",
+			"normal": "https://img1.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/p36798.jpg"
+		},
+		"type": "celebrity",
+		"id": "1274224",
+		"sharing_url": "https:\/\/www.douban.com\/doubanapp\/dispatch?uri=\/celebrity\/1274224\/"
+	}, {
+		"name": "曹炳琨",
+		"roles": ["演员"],
+		"title": "曹炳琨（同名）中国,北京影视演员",
+		"url": "https:\/\/movie.douban.com\/celebrity\/1313383\/",
+		"abstract": "曹炳琨，滿族人，是北京电影学院2001级毕业生，曾出演電視劇《潛伏》、《青春期撞上更年期》電影《藍宇...",
+		"author": null,
+		"uri": "douban:\/\/douban.com\/celebrity\/1313383?subject_id=27485568",
+		"cover_url": "https://img1.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/p17579.jpg",
+		"avatar": {
+			"large": "https://img1.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/p17579.jpg",
+			"normal": "https://img1.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/p17579.jpg"
+		},
+		"type": "celebrity",
+		"id": "1313383",
+		"sharing_url": "https:\/\/www.douban.com\/doubanapp\/dispatch?uri=\/celebrity\/1313383\/"
+	}, {
+		"name": "王戈",
+		"roles": ["演员"],
+		"title": "王戈（同名）广西影视演员",
+		"url": "https:\/\/movie.douban.com\/celebrity\/1375802\/",
+		"abstract": "王戈，1989年7月23日出生于广西，中国内地男演员，毕业于中国传媒大学表演系。 2010年，参演话剧《最后...",
+		"author": null,
+		"uri": "douban:\/\/douban.com\/celebrity\/1375802?subject_id=27498128",
+		"cover_url": "https://img3.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/pNn_jKXXC07Qcel_avatar_uploaded1497622150.21.jpg",
+		"avatar": {
+			"large": "https://img3.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/pNn_jKXXC07Qcel_avatar_uploaded1497622150.21.jpg",
+			"normal": "https://img3.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/pNn_jKXXC07Qcel_avatar_uploaded1497622150.21.jpg"
+		},
+		"type": "celebrity",
+		"id": "1375802",
+		"sharing_url": "https:\/\/www.douban.com\/doubanapp\/dispatch?uri=\/celebrity\/1375802\/"
+	}, {
+		"name": "苏可",
+		"roles": ["演员"],
+		"title": "苏可（同名）中国,北京影视演员",
+		"url": "https:\/\/movie.douban.com\/celebrity\/1315540\/",
+		"abstract": "中文名： 苏可 国籍： 中国 出生地： 北京 出生日期： 1972年12月20日 职业： 演员  毕业院...",
+		"author": null,
+		"uri": "douban:\/\/douban.com\/celebrity\/1315540?subject_id=27549384",
+		"cover_url": "https://img1.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/p37478.jpg",
+		"avatar": {
+			"large": "https://img1.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/p37478.jpg",
+			"normal": "https://img1.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/p37478.jpg"
+		},
+		"type": "celebrity",
+		"id": "1315540",
+		"sharing_url": "https:\/\/www.douban.com\/doubanapp\/dispatch?uri=\/celebrity\/1315540\/"
+	}],
+	"interest": null,
+	"episodes_count": 0,
+	"color_scheme": null,
+	"type": "movie",
+	"null_rating_reason": "",
+	"linewatches": [],
+	"info_url": "https:\/\/www.douban.com\/doubanapp\/\/h5\/movie\/26925317\/desc",
+	"tags": [{
+		"url": "https:\/\/www.douban.com\/channel\/30169652",
+		"id": "30169652",
+		"name": "人性",
+		"is_channel": true,
+		"uri": "douban:\/\/douban.com\/channel\/30169652"
+	}, {
+		"url": "https:\/\/www.douban.com\/channel\/30168841",
+		"id": "30168841",
+		"name": "烧脑片",
+		"is_channel": true,
+		"uri": "douban:\/\/douban.com\/channel\/30168841"
+	}, {
+		"url": "https:\/\/www.douban.com\/channel\/30168720",
+		"id": "30168720",
+		"name": "悬疑",
+		"is_channel": true,
+		"uri": "douban:\/\/douban.com\/channel\/30168720"
+	}, {
+		"url": "https:\/\/www.douban.com\/channel\/30168848",
+		"id": "30168848",
+		"name": "动作片",
+		"is_channel": true,
+		"uri": "douban:\/\/douban.com\/channel\/30168848"
+	}, {
+		"url": "https:\/\/www.douban.com\/channel\/30168801",
+		"id": "30168801",
+		"name": "成长",
+		"is_channel": true,
+		"uri": "douban:\/\/douban.com\/channel\/30168801"
+	}, {
+		"url": "https:\/\/www.douban.com\/channel\/30168719",
+		"id": "30168719",
+		"name": "推理",
+		"is_channel": true,
+		"uri": "douban:\/\/douban.com\/channel\/30168719"
+	}, {
+		"url": "https:\/\/www.douban.com\/channel\/30168722",
+		"id": "30168722",
+		"name": "奇幻",
+		"is_channel": true,
+		"uri": "douban:\/\/douban.com\/channel\/30168722"
+	}],
+	"durations": ["132分钟"],
+	"cover": {
+		"reaction_type": 0,
+		"liked": false,
+		"description": "",
+		"author": {
+			"loc": {
+				"id": "108091",
+				"name": "澳门",
+				"uid": "aomen"
+			},
+			"kind": "user",
+			"name": "能动手就别动口",
+			"url": "https:\/\/www.douban.com\/people\/134221766\/",
+			"uri": "douban:\/\/douban.com\/user\/134221766",
+			"avatar": "https://img3.doubanio.com\/icon\/up134221766-26.jpg",
+			"type": "user",
+			"id": "134221766",
+			"uid": "134221766"
+		},
+		"likers_count": 52,
+		"image": {
+			"large": {
+				"url": "https://img1.doubanio.com\/view\/photo\/l\/public\/p2525528688.jpg",
+				"width": 1147,
+				"height": 1600,
+				"size": 0
+			},
+			"raw": {
+				"url": "https://img1.doubanio.com\/view\/photo\/xl\/public\/p2525528688.jpg",
+				"width": 2999,
+				"height": 4181,
+				"size": 4930560
+			},
+			"small": {
+				"url": "https://img1.doubanio.com\/view\/photo\/s\/public\/p2525528688.jpg",
+				"width": 430,
+				"height": 600,
+				"size": 0
+			},
+			"normal": {
+				"url": "https://img1.doubanio.com\/view\/photo\/m\/public\/p2525528688.jpg",
+				"width": 430,
+				"height": 600,
+				"size": 0
+			}
+		},
+		"is_collected": false,
+		"uri": "douban:\/\/douban.com\/photo\/2525528688",
+		"allow_comment": true,
+		"url": "https:\/\/movie.douban.com\/photos\/photo\/2525528688\/",
+		"reactions_count": 52,
+		"comments_count": 13,
+		"collections_count": 56,
+		"position": 0,
+		"create_time": "2018-06-19 16:32:28",
+		"reshares_count": 0,
+		"owner_uri": "douban:\/\/douban.com\/movie\/26925317",
+		"type": "photo",
+		"id": "2525528688",
+		"sharing_url": "https:\/\/www.douban.com\/doubanapp\/dispatch?uri=\/photo\/2525528688\/"
+	},
+	"header_bg_color": "0b4a51",
+	"is_douban_intro": false,
+	"honor_infos": [],
+	"sharing_url": "https:\/\/www.douban.com\/doubanapp\/dispatch?uri=\/movie\/26925317\/",
+	"countries": ["中国大陆"],
+	"url": "https:\/\/movie.douban.com\/subject\/26925317\/",
+	"release_date": "2018-06-29",
+	"original_title": "",
+	"uri": "douban:\/\/douban.com\/movie\/26925317",
+	"webisode_count": 0,
+	"mini_program_page": "pages\/subject\/subject?type=movie&id=26925317",
+	"subtype": "movie",
+	"directors": [{
+		"name": "韩延",
+		"roles": ["导演", "编剧"],
+		"title": "韩延（同名）中国,山东,济南,平阴影视演员",
+		"url": "https:\/\/movie.douban.com\/celebrity\/1314828\/",
+		"abstract": "内地新锐导演。毕业于中央戏剧学院的韩延执导过多部电影与短片，2002年的《五好差一好》被评为年度最受...",
+		"author": null,
+		"uri": "douban:\/\/douban.com\/celebrity\/1314828?subject_id=27504054",
+		"cover_url": "https://img3.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/p38015.jpg",
+		"avatar": {
+			"large": "https://img3.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/p38015.jpg",
+			"normal": "https://img3.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/p38015.jpg"
+		},
+		"type": "celebrity",
+		"id": "1314828",
+		"sharing_url": "https:\/\/www.douban.com\/doubanapp\/dispatch?uri=\/celebrity\/1314828\/"
+	}],
+	"in_blacklist": false,
+	"mini_program_name": "gh_c9bfaa84f27b",
+	"video": {
+		"reaction_type": 0,
+		"sharing_url": "https:\/\/www.douban.com\/doubanapp\/dispatch?uri=\/movie\/26925317\/video?video_id=100557&video_type=A",
+		"video_url": "https:\/\/sv1.doubanio.com\/201807091641\/0b941dfd56a1b385c8d166db7387b341\/video\/2018\/M\/401000557.mp4",
+		"title": "《动物世界》是中国商业片的又一座里程碑",
+		"author": {
+			"loc": {
+				"id": "118283",
+				"name": "珠海",
+				"uid": "zhuhai"
+			},
+			"kind": "user",
+			"followed": false,
+			"name": "老罗",
+			"in_blacklist": false,
+			"url": "https:\/\/www.douban.com\/people\/2834403\/",
+			"remark": "",
+			"uri": "douban:\/\/douban.com\/user\/2834403",
+			"avatar": "https://img3.doubanio.com\/icon\/up2834403-40.jpg",
+			"type": "user",
+			"id": "2834403",
+			"uid": "WilliamLuo"
+		},
+		"uri": "douban:\/\/douban.com\/movie\/26925317\/video?video_id=100557&video_type=A",
+		"cover_url": "https://img3.doubanio.com\/view\/photo\/photo\/public\/p2526826813.jpg?",
+		"n_comments": 7,
+		"reactions_count": 0,
+		"create_time": "2018-07-02",
+		"collections_count": 0,
+		"reshares_count": 1,
+		"runtime": "06:33",
+		"type": "A",
+		"id": "100557",
+		"is_collected": false,
+		"desc": "我是老罗，今天我们来聊聊《动物世界》。"
+	},
+	"aka": ["赌博默示录中国版", "Animal World"],
+	"trailer": {
+		"reaction_type": 0,
+		"sharing_url": "https:\/\/www.douban.com\/doubanapp\/dispatch?uri=\/movie\/26925317\/trailer?trailer_id=232627&trailer_type=A",
+		"video_url": "http:\/\/vt1.doubanio.com\/201807091645\/0f44bca34824703de7ae29762561142a\/view\/movie\/M\/302320627.mp4",
+		"title": "预告片：终极版 (中文字幕)",
+		"create_time": "2018-06-20",
+		"uri": "https:\/\/m.douban.com\/movie\/trailer\/232627",
+		"cover_url": "https://img1.doubanio.com\/img\/trailer\/medium\/2525660407.jpg?1529475837",
+		"term_num": 0,
+		"n_comments": 60,
+		"reactions_count": 2,
+		"is_collected": false,
+		"subject_title": "动物世界",
+		"collections_count": 3,
+		"reshares_count": 17,
+		"runtime": "02:06",
+		"type": "A",
+		"id": "232627",
+		"desc": ""
+	}
+}
