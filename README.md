@@ -4,19 +4,19 @@
 
 首页
 
-![image](http://7qn7ih.com1.z0.glb.clouddn.com/20180711000512.jpg)
+![image](https://luchanan.github.io/mpvue-douban-pingfen/preview/20180711000512.jpg)
 
 列表
 
-![image](http://7qn7ih.com1.z0.glb.clouddn.com/20180711000518.jpg)
+![image](https://luchanan.github.io/mpvue-douban-pingfen/preview/20180711000518.jpg)
 
 详情
 
-![image](http://7qn7ih.com1.z0.glb.clouddn.com/20180711000525.jpg)
+![image](https://luchanan.github.io/mpvue-douban-pingfen/preview/20180711000525.jpg)
 
 我的
 
-![image](http://7qn7ih.com1.z0.glb.clouddn.com/20180711000529.jpg)
+![image](https://luchanan.github.io/mpvue-douban-pingfen/preview/20180711000529.jpg)
 
 ## 使用
 
